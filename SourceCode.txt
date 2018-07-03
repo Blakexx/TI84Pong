@@ -1,4 +1,4 @@
-CODE FOR WALLGAME.8xp:
+**CODE FOR WALLGAME.8xp**
 CLASSIC
 ClrHome
 ClrAllLists
@@ -111,23 +111,23 @@ End
 ClrAllLists
 MATHPRINT
 
-CODE FOR DISPP1.8xp:
+**CODE FOR DISPP1.8xp**
 Output(Y,X,"[")
 Output(Y+1,X,"[")
 Output(Y+2,X,"[")
 
-CODE FOR DISPP2.8xp:
+**CODE FOR DISPP2.8xp**
 Output(R,Q,"]")
 Output(R+1,Q,"]")
 Output(R+2,Q,"]")
 
-CODE FOR UPP1.8xp:
+**CODE FOR UPP1.8xp**
 If Y-1>0
 Output(Y-1,X," ")
 If Y+3<9
 Output(Y+3,X," ")
 
-CODE FOR UPP2.8xp:
+**CODE FOR UPP2.8xp**
 If R-1>0
 Output(R-1,1," ")
 If R+3<9
